@@ -1,0 +1,4 @@
+{
+  "editor.rulers": [80],
+  "latex-workshop.latex.external.build.command": "make"
+}
