@@ -1,13 +1,10 @@
-.PHONY: resume.pdf
+.PHONY: kyle-almas.pdf
 
 CC = ./latexdockercmd.sh xelatex --halt-on-error
-EXAMPLES_DIR = examples
-RESUME_DIR = examples/resume
-RESUME_SRCS = $(shell find $(RESUME_DIR) -name '*.tex')
-CV_SRCS = $(shell find $(CV_DIR) -name '*.tex')
+RESUME_SRCS = $(shell find src/sections -name '*.tex')
 
-resume.pdf: $(EXAMPLES_DIR)/resume.tex $(RESUME_SRCS)
-	$(CC) -output-directory=$(EXAMPLES_DIR) $<
+kyle-almas.pdf: src/kyle-almas.tex $(RESUME_SRCS)
+	$(CC) $<
 
 clean:
-	rm -rf $(EXAMPLES_DIR)/*.pdf
+	rm kyle-almas.*
