@@ -1,10 +1,9 @@
-# Resume
+# My Resume
 
-Download [PDF](https://raw.githubusercontent.com/kalmas/Awesome-CV/main/kylealmas.pdf)
+[View as PDF](https://github.com/kalmas/resume/blob/main/kyle-almas.pdf)
 
-<!--
-[![Resume](https://raw.githubusercontent.com/kalmas/Awesome-CV/main/kylealmas.pdf)](https://raw.githubusercontent.com/kalmas/Awesome-CV/main/kylealmas.pdf) -->
+[Download as PDF](https://github.com/kalmas/resume/raw/main/kyle-almas.pdf)
 
 ## Credit
 
-Modified from [**Awesome-CV**](https://github.com/posquit0/Awesome-CV).
+Built using the amazing [**Awesome-CV**](https://github.com/posquit0/Awesome-CV).
